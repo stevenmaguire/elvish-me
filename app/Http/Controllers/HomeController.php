@@ -76,7 +76,7 @@ class HomeController {
             return $dictionary[$keyword];
         }
         foreach ($dictionary as $word => $definition) {
-            if (strpos($word, $keyword) !== false) {
+            if (strpos(strtolower($word), strtolower($keyword)) !== false) {
                 return $definition;
             }
         }
