@@ -1,3 +1,5 @@
+## Demo [ ![Codeship Status for stevenmaguire/demo-laravel-ci](https://www.codeship.io/projects/cee04520-357f-0132-8ee7-2658e26501e3/status)](https://www.codeship.io/projects/41065)
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)

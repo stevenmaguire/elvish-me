@@ -443,12 +443,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/elixir.git",
-                "reference": "1c3b0f85df4eb6736982d10fe55fbd7d25f824a5"
+                "reference": "1d5a3d6ca03578618bb8712f47c7bdb8fadcc186"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/elixir/zipball/1c3b0f85df4eb6736982d10fe55fbd7d25f824a5",
-                "reference": "1c3b0f85df4eb6736982d10fe55fbd7d25f824a5",
+                "url": "https://api.github.com/repos/laravel/elixir/zipball/1d5a3d6ca03578618bb8712f47c7bdb8fadcc186",
+                "reference": "1d5a3d6ca03578618bb8712f47c7bdb8fadcc186",
                 "shasum": ""
             },
             "require": {
@@ -479,7 +479,7 @@
                     "email": "taylorotwell@gmail.com"
                 }
             ],
-            "time": "2014-10-13 20:51:19"
+            "time": "2014-10-14 02:28:55"
         },
         {
             "name": "laravel/framework",
@@ -487,18 +487,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "774c2ec33d521c9e61c0a8d87fe622acf1e9fabd"
+                "reference": "ab6bd591304b87720ea39401a090db0b6e71ba55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/774c2ec33d521c9e61c0a8d87fe622acf1e9fabd",
-                "reference": "774c2ec33d521c9e61c0a8d87fe622acf1e9fabd",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/ab6bd591304b87720ea39401a090db0b6e71ba55",
+                "reference": "ab6bd591304b87720ea39401a090db0b6e71ba55",
                 "shasum": ""
             },
             "require": {
                 "classpreloader/classpreloader": "~1.0.2",
                 "d11wtq/boris": "~1.0",
                 "doctrine/annotations": "~1.0",
+                "ext-mcrypt": "*",
+                "ext-openssl": "*",
                 "filp/whoops": "1.1.*",
                 "ircmaxell/password-compat": "~1.0",
                 "jeremeamia/superclosure": "~1.0.1",
@@ -597,7 +599,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-10-13 23:57:41"
+            "time": "2014-10-14 03:04:25"
         },
         {
             "name": "league/flysystem",
@@ -1051,12 +1053,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/stevenmaguire/elvish-ipsum.git",
-                "reference": "73fd54966a32b80fe5daaa57dd4161b765c29873"
+                "reference": "50c4dd6c65d8719a8a7fc80fca230ebfbc6b7a9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stevenmaguire/elvish-ipsum/zipball/73fd54966a32b80fe5daaa57dd4161b765c29873",
-                "reference": "73fd54966a32b80fe5daaa57dd4161b765c29873",
+                "url": "https://api.github.com/repos/stevenmaguire/elvish-ipsum/zipball/50c4dd6c65d8719a8a7fc80fca230ebfbc6b7a9c",
+                "reference": "50c4dd6c65d8719a8a7fc80fca230ebfbc6b7a9c",
                 "shasum": ""
             },
             "require": {
@@ -1079,7 +1081,7 @@
                 }
             ],
             "description": "Elvish ipsum generator.",
-            "time": "2014-10-14 01:08:36"
+            "time": "2014-10-14 03:24:44"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -2762,19 +2764,13 @@
             "time": "2014-10-05 13:53:50"
         }
     ],
-    "aliases": [
-
-    ],
+    "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
         "stevenmaguire/elvish-ipsum": 20,
         "illuminate/html": 20
     },
     "prefer-stable": false,
-    "platform": [
-
-    ],
-    "platform-dev": [
-
-    ]
+    "platform": [],
+    "platform-dev": []
 }
