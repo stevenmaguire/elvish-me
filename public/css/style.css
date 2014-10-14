@@ -22,7 +22,7 @@ header.serious a {color: #fff;text-decoration: underline;}
 header.elvis {padding: 7%;background-image: url('/images/elves-elvis.jpg');text-align: left;}
 header.elvis h1, header.serious h2 {margin: 0;}
 header.elvis span {color: #fff;margin: 0;padding: 5px;}
-header.elvis a {color: #fff;text-decoration: underline;}
+header.elvis a {color: #fff;text-decoration:  underline;}
 
 header h2 {
     font-size: 16px;
