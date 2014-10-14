@@ -4,7 +4,53 @@ header, section {
 
 header {
     text-align: center;
-    background: #f6f6f6;
+    background-color: #f6f6f6;
+    background-size: cover;
+    background-position: center center;
+}
+
+header.cute {
+    padding: 7%;
+    background-image: url('/images/elves-cute.jpg');
+    text-align: left;
+}
+
+header.cute h1, header.cute h2 {
+    margin: 0;
+}
+
+header.cute span {
+    color: #fff;
+    background: red;
+    margin: 0;
+    padding: 5px;
+}
+
+header.cute a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+header.serious {
+    padding: 7%;
+    background-image: url('/images/elves-serious.jpg');
+    text-align: right;
+}
+
+header.serious h1, header.serious h2 {
+    margin: 0;
+}
+
+header.serious span {
+    color: #fff;
+    /*background: #333;*/
+    margin: 0;
+    padding: 5px;
+}
+
+header.serious a {
+    color: #fff;
+    text-decoration: underline;
 }
 
 header h2 {

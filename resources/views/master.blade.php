@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <header>
+    <header class="serious">
         <div class="row">
             <div class="small-12 columns">
-                <h1><a href="{{ route('home') }}">Elvish Ipsum</a></h1>
-                <h2>Sometimes you just need some elvish in your life.</h2>
+                <h1><span><a href="{{ route('home') }}">Elvish Ipsum</a></span></h1>
+                <h2 class="show-for-medium-up"><span>Sometimes you just need some elvish in your life.</span></h2>
             </div>
         </div>
     </header>
