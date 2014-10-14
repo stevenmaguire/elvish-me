@@ -9,49 +9,20 @@ header {
     background-position: center center;
 }
 
-header.cute {
-    padding: 7%;
-    background-image: url('/images/elves-cute.jpg');
-    text-align: left;
-}
+header.cute {padding: 7%;background-image: url('/images/elves-cute.jpg');text-align: left;}
+header.cute h1, header.cute h2 {margin: 0;}
+header.cute span {color: #fff;background: red;margin: 0;padding: 5px;}
+header.cute a {color: #fff;text-decoration: underline;}
 
-header.cute h1, header.cute h2 {
-    margin: 0;
-}
+header.serious {padding: 7%;background-image: url('/images/elves-serious.jpg');text-align: right;}
+header.serious h1, header.serious h2 {margin: 0;}
+header.serious span {color: #fff;margin: 0;padding: 5px;}
+header.serious a {color: #fff;text-decoration: underline;}
 
-header.cute span {
-    color: #fff;
-    background: red;
-    margin: 0;
-    padding: 5px;
-}
-
-header.cute a {
-    color: #fff;
-    text-decoration: underline;
-}
-
-header.serious {
-    padding: 7%;
-    background-image: url('/images/elves-serious.jpg');
-    text-align: right;
-}
-
-header.serious h1, header.serious h2 {
-    margin: 0;
-}
-
-header.serious span {
-    color: #fff;
-    /*background: #333;*/
-    margin: 0;
-    padding: 5px;
-}
-
-header.serious a {
-    color: #fff;
-    text-decoration: underline;
-}
+header.elvis {padding: 7%;background-image: url('/images/elves-elvis.jpg');text-align: left;}
+header.elvis h1, header.serious h2 {margin: 0;}
+header.elvis span {color: #fff;margin: 0;padding: 5px;}
+header.elvis a {color: #fff;text-decoration: underline;}
 
 header h2 {
     font-size: 16px;

@@ -19,7 +19,7 @@
     <footer>
         <div class="row">
             <div class="small-12 columns">
-                <p>&copy; {{ date('Y') }} <a href="http://stevenmaguire.com">Steven Maguire</a></p>
+                <p>&copy; {{ date('Y') }} <a href="http://stevenmaguire.com">Steven Maguire</a> &bull; Originally crafted for a <a href="http://bitly.com/laravel-ci">presentation</a>.</p>
             </div>
         </div>
     </footer>
