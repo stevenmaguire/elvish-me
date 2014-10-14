@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Laravel CI Demo</title>
+    <title>Elvish Me</title>
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundation/5.4.6/css/foundation.min.css">
     <link rel="stylesheet" href="/css/style.css">
 </head>
