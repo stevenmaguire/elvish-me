@@ -443,12 +443,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/elixir.git",
-                "reference": "1d5a3d6ca03578618bb8712f47c7bdb8fadcc186"
+                "reference": "bf86c52470c453f0adaa3cbfe4ecfe8f294586aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/elixir/zipball/1d5a3d6ca03578618bb8712f47c7bdb8fadcc186",
-                "reference": "1d5a3d6ca03578618bb8712f47c7bdb8fadcc186",
+                "url": "https://api.github.com/repos/laravel/elixir/zipball/bf86c52470c453f0adaa3cbfe4ecfe8f294586aa",
+                "reference": "bf86c52470c453f0adaa3cbfe4ecfe8f294586aa",
                 "shasum": ""
             },
             "require": {
@@ -479,7 +479,7 @@
                     "email": "taylorotwell@gmail.com"
                 }
             ],
-            "time": "2014-10-14 02:28:55"
+            "time": "2014-10-14 03:40:11"
         },
         {
             "name": "laravel/framework",

@@ -1,8 +1,8 @@
 <?php namespace App\Http\Controllers;
 
-use \Elvish,
-    \Input,
-    \Redirect;
+//use Elvish,
+    Input,
+    Redirect;
 
 class HomeController {
 
