@@ -4,10 +4,10 @@
             <h2>Define elvish words</h2>
             {!! Form::open(['route' => 'define.do']) !!}
             <div class="row collapse">
-                <div class="small-10 columns">
+                <div class="small-9 medium-10 columns">
                     {!! Form::text('keyword', (isset($keyword) ? $keyword : null), ['placeholder' => 'Elvish']) !!}
                 </div>
-                <div class="small-2 columns">
+                <div class="small-3 medium-2 columns">
                     {!! Form::submit('Define', ['class' => 'button postfix']) !!}
                 </div>
             </div>

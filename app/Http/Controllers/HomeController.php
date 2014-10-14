@@ -15,13 +15,8 @@ class HomeController {
 
     public function doContent()
     {
-        $count = Input::get('count');
-        $type = Input::get('type');
-        if ($type) {
-            return Redirect::route('content', [
-                'type' => $type,
-                'count' => $count
-            ]);
+        if (Input::has('type')) {
+            return Redirect::route('content', Input::except('_token'));
         }
         return Redirect::route('home');
     }
@@ -31,6 +26,7 @@ class HomeController {
         return view('content', [
             'type' => $type,
             'count' => $count,
+            'link' => Input::has('link'),
             'types' => $this->getContentTypes(),
             'content' => $this->getContentByTypeAndCount($type, $count)
         ]);
