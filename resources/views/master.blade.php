@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <header class="serious">
+    <header class="">
         <div class="row">
             <div class="small-12 columns">
                 <h1><span><a href="{{ route('home') }}">Elvish Ipsum</a></span></h1>
