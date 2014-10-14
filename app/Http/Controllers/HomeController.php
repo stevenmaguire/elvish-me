@@ -71,13 +71,15 @@ class HomeController {
 
     private function defineElvish($keyword = null)
     {
-        $dictionary = $this->getElvishDictionary();
-        if (isset($dictionary[$keyword])) {
-            return $dictionary[$keyword];
-        }
-        foreach ($dictionary as $word => $definition) {
-            if (strpos(strtolower($word), strtolower($keyword)) !== false) {
-                return $definition;
+        if ($keyword) {
+            $dictionary = $this->getElvishDictionary();
+            if (isset($dictionary[$keyword])) {
+                return $dictionary[$keyword];
+            }
+            foreach ($dictionary as $word => $definition) {
+                if (strpos(strtolower($word), strtolower($keyword)) !== false) {
+                    return $definition;
+                }
             }
         }
         return null;
