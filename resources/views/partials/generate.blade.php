@@ -30,7 +30,7 @@
                 <h3>{{ $count }} {{ ($count == 1 ? rtrim($type,'s') : $type) }} of elvish ipsum</h3>
                 @foreach($content as $item)
                 @if(isset($link) && $link)
-                <p>{!! preg_replace('/([^\s,.]+)/', '<a href="/define/$1" title="Define: $1">$1</a>', $item); !!}</p>
+                <p>{!! preg_replace('/([^\s,.]+)/', '<a href="/define/$1" title="Define: $1">$1</a>', $item) !!}</p>
                 @else
                 <p>{!! $item !!}}</p>
                 @endif
