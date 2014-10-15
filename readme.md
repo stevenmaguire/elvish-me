@@ -1,4 +1,4 @@
-## Demo [ ![Codeship Status for stevenmaguire/demo-laravel-ci](https://www.codeship.io/projects/cee04520-357f-0132-8ee7-2658e26501e3/status)](https://www.codeship.io/projects/41065)
+## Elvish me [ ![Codeship Status for stevenmaguire/elvish-me](https://www.codeship.io/projects/1d9ff760-362a-0132-e910-7a5386a47319/status?branch=master)](https://www.codeship.io/projects/41340)
 
 ## Laravel PHP Framework
 
