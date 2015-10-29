@@ -1,7 +1,5 @@
-/.idea
 /vendor
 /node_modules
+Homestead.yaml
+Homestead.json
 .env
-.DS_Store
-Thumbs.db
-composer.phar

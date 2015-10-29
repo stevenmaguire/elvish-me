@@ -32,7 +32,7 @@
                 @if(isset($link) && $link)
                 <p>{!! preg_replace('/([^\s,.]+)/', '<a href="/define/$1" title="Define: $1">$1</a>', $item) !!}</p>
                 @else
-                <p>{!! $item !!}}</p>
+                <p>{!! $item !!}</p>
                 @endif
                 @endforeach
             </blockquote>
